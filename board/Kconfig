@@ -1,6 +1,6 @@
 menu "Hardware Drivers Config"
 
-config SOC_STM32F103RB
+config SOC_STM32F103VE
     bool
     select SOC_SERIES_STM32F1
     select RT_USING_COMPONENTS_INIT
@@ -8,7 +8,10 @@ config SOC_STM32F103RB
     default y
 
 menu "Onboard Peripheral Drivers"
-
+    config BSP_USING_USB_TO_USART
+        bool "Enable USB TO USART (uart1)"
+        select BSP_USING_UART1
+        default y
 endmenu
 
 menu "On-chip Peripheral Drivers"
@@ -32,8 +35,6 @@ menu "On-chip Peripheral Drivers"
                 depends on BSP_USING_UART1 && RT_SERIAL_USING_DMA
                 default n
         endif
-
-    source "../libraries/HAL_Drivers/Kconfig"
        
 endmenu
 
