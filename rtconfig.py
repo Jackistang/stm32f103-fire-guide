@@ -20,10 +20,10 @@ if  CROSS_TOOL == 'gcc':
     EXEC_PATH   = r'C:\Users\XXYYZZ'
 elif CROSS_TOOL == 'keil':
     PLATFORM    = 'armcc'
-    EXEC_PATH   = r'G:/tool/keil'
+    EXEC_PATH   = r'C:/Keil_v5'
 elif CROSS_TOOL == 'iar':
     PLATFORM    = 'iar'
-    EXEC_PATH   = r'C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.2'
+    EXEC_PATH   = r'C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.0'
 
 if os.getenv('RTT_EXEC_PATH'):
     EXEC_PATH = os.getenv('RTT_EXEC_PATH')
@@ -136,9 +136,9 @@ elif PLATFORM == 'iar':
 
     LFLAGS = ' --config "board/linker_scripts/link.icf"'
     LFLAGS += ' --entry __iar_program_start'
-    
-    CXXFLAGS = CFLAGS
 
+    CXXFLAGS = CFLAGS
+    
     EXEC_PATH = EXEC_PATH + '/arm/bin/'
     POST_ACTION = 'ielftool --bin $TARGET rtthread.bin'
 

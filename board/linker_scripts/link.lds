@@ -1,12 +1,12 @@
 /*
- * linker script for STM32L1XX with GNU ld
+ * linker script for STM32F10x with GNU ld
  */
 
 /* Program Entry, set to mark it as "used" and avoid gc */
 MEMORY
 {
     ROM (rx) : ORIGIN = 0x08000000, LENGTH = 128k /* 128KB flash */
-    RAM (rw) : ORIGIN = 0x20000000, LENGTH =  16k /* 16K sram */
+    RAM (rw) : ORIGIN = 0x20000000, LENGTH =  20k /* 20K sram */
 }
 ENTRY(Reset_Handler)
 _system_stack_size = 0x200;
@@ -52,7 +52,7 @@ SECTIONS
         KEEP (*(.init_array))
         PROVIDE(__ctors_end__ = .);
 
-        . = ALIGN(4); 
+        . = ALIGN(4);
 
         _etext = .;
     } > ROM = 0
@@ -84,7 +84,7 @@ SECTIONS
         KEEP(*(SORT(.dtors.*)))
         KEEP(*(.dtors))
         PROVIDE(__dtors_end__ = .);
-        
+
         . = ALIGN(4);
         /* This is used by the startup in order to initialize the .data secion */
         _edata = . ;

@@ -10,7 +10,7 @@
       <name>General</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>31</version>
+        <version>29</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -65,7 +65,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>8.32.3.20186</state>
+          <state>8.11.3.13977</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -77,7 +77,7 @@
         </option>
         <option>
           <name>OGChipSelectEditMenu</name>
-          <state>STM32L151CB	ST STM32L151CB</state>
+          <state>STM32F103RB	ST STM32F103RB</state>
         </option>
         <option>
           <name>GenLowLevelInterface</name>
@@ -111,11 +111,11 @@
         </option>
         <option>
           <name>RTConfigPath2</name>
-          <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+          <state>$TOOLKIT_DIR$\INC\c\DLib_Config_Normal.h</state>
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>27</version>
+          <version>25</version>
           <state>38</state>
         </option>
         <option>
@@ -132,12 +132,12 @@
         </option>
         <option>
           <name>CoreVariant</name>
-          <version>27</version>
+          <version>25</version>
           <state>38</state>
         </option>
         <option>
           <name>GFPUDeviceSlave</name>
-          <state>STM32L151CB	ST STM32L151CB</state>
+          <state>STM32F103RB	ST STM32F103RB</state>
         </option>
         <option>
           <name>FPU2</name>
@@ -155,7 +155,7 @@
         </option>
         <option>
           <name>GFPUCoreSlave2</name>
-          <version>27</version>
+          <version>25</version>
           <state>38</state>
         </option>
         <option>
@@ -199,22 +199,13 @@
           <name>DSPExtension</name>
           <state>0</state>
         </option>
-        <option>
-          <name>TrustZone</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>TrustZoneModes</name>
-          <version>0</version>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICCARM</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>35</version>
+        <version>34</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -224,7 +215,7 @@
         <option>
           <name>CCDefines</name>
           <state />
-          <state>STM32L151xB</state>
+          <state>STM32F103xB</state>
           <state>USE_HAL_DRIVER</state>
         </option>
         <option>
@@ -354,16 +345,14 @@
           <state>$PROJ_DIR$\..\..\..\libcpu\arm\cortex-m3</state>
           <state>$PROJ_DIR$\..\..\..\components\finsh</state>
           <state>$PROJ_DIR$\..\..\..\libcpu\arm\common</state>
-          <state>$PROJ_DIR$\board\ports</state>
+          <state>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Inc</state>
           <state>$PROJ_DIR$\..\..\..\components\drivers\include</state>
-          <state>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Inc</state>
+          <state>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\CMSIS\Device\ST\STM32F1xx\Include</state>
           <state>$PROJ_DIR$\.</state>
           <state>$PROJ_DIR$\applications</state>
+          <state>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\CMSIS\Include</state>
           <state>$PROJ_DIR$\..\libraries\HAL_Drivers\config</state>
           <state>$PROJ_DIR$\board</state>
-          <state>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\CMSIS\Device\ST\STM32L1xx\Include</state>
-          <state>$PROJ_DIR$\..\..\..\components\libc\compilers\common</state>
-          <state>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\CMSIS\Include</state>
           <state>$PROJ_DIR$\board\CubeMX_Config\Inc</state>
           <state>$PROJ_DIR$\..\..\..\include</state>
           <state>$PROJ_DIR$\..\libraries\HAL_Drivers</state>
@@ -479,10 +468,6 @@
         <option>
           <name>IccRTTI2</name>
           <state>0</state>
-        </option>
-        <option>
-          <name>OICompilerExtraOption</name>
-          <state>1</state>
         </option>
       </data>
     </settings>
@@ -704,7 +689,7 @@
       <name>ILINK</name>
       <archiveVersion>0</archiveVersion>
       <data>
-        <version>22</version>
+        <version>20</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1016,14 +1001,6 @@
           <name>IlinkLocaleSelect</name>
           <state>1</state>
         </option>
-        <option>
-          <name>IlinkTrustzoneImportLibraryOut</name>
-          <state>###Unitialized###</state>
-        </option>
-        <option>
-          <name>OILinkExtraOption</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -1063,7 +1040,7 @@
       <name>General</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>31</version>
+        <version>29</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1168,7 +1145,7 @@
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>27</version>
+          <version>25</version>
           <state>1</state>
         </option>
         <option>
@@ -1185,7 +1162,7 @@
         </option>
         <option>
           <name>CoreVariant</name>
-          <version>27</version>
+          <version>25</version>
           <state>0</state>
         </option>
         <option>
@@ -1208,7 +1185,7 @@
         </option>
         <option>
           <name>GFPUCoreSlave2</name>
-          <version>27</version>
+          <version>25</version>
           <state>0</state>
         </option>
         <option>
@@ -1252,22 +1229,13 @@
           <name>DSPExtension</name>
           <state>0</state>
         </option>
-        <option>
-          <name>TrustZone</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>TrustZoneModes</name>
-          <version>0</version>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICCARM</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>35</version>
+        <version>34</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1277,7 +1245,7 @@
         <option>
           <name>CCDefines</name>
           <state />
-          <state>STM32L151xB</state>
+          <state>STM32F103xB</state>
           <state>USE_HAL_DRIVER</state>
         </option>
         <option>
@@ -1407,16 +1375,14 @@
           <state>$PROJ_DIR$\..\..\..\libcpu\arm\cortex-m3</state>
           <state>$PROJ_DIR$\..\..\..\components\finsh</state>
           <state>$PROJ_DIR$\..\..\..\libcpu\arm\common</state>
-          <state>$PROJ_DIR$\board\ports</state>
+          <state>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Inc</state>
           <state>$PROJ_DIR$\..\..\..\components\drivers\include</state>
-          <state>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Inc</state>
+          <state>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\CMSIS\Device\ST\STM32F1xx\Include</state>
           <state>$PROJ_DIR$\.</state>
           <state>$PROJ_DIR$\applications</state>
+          <state>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\CMSIS\Include</state>
           <state>$PROJ_DIR$\..\libraries\HAL_Drivers\config</state>
           <state>$PROJ_DIR$\board</state>
-          <state>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\CMSIS\Device\ST\STM32L1xx\Include</state>
-          <state>$PROJ_DIR$\..\..\..\components\libc\compilers\common</state>
-          <state>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\CMSIS\Include</state>
           <state>$PROJ_DIR$\board\CubeMX_Config\Inc</state>
           <state>$PROJ_DIR$\..\..\..\include</state>
           <state>$PROJ_DIR$\..\libraries\HAL_Drivers</state>
@@ -1532,10 +1498,6 @@
         <option>
           <name>IccRTTI2</name>
           <state>0</state>
-        </option>
-        <option>
-          <name>OICompilerExtraOption</name>
-          <state>1</state>
         </option>
       </data>
     </settings>
@@ -1757,7 +1719,7 @@
       <name>ILINK</name>
       <archiveVersion>0</archiveVersion>
       <data>
-        <version>22</version>
+        <version>20</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -2069,14 +2031,6 @@
           <name>IlinkLocaleSelect</name>
           <state>1</state>
         </option>
-        <option>
-          <name>IlinkTrustzoneImportLibraryOut</name>
-          <state>###Unitialized###</state>
-        </option>
-        <option>
-          <name>OILinkExtraOption</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -2107,6 +2061,33 @@
     </settings>
   </configuration>
   <group>
+    <name>Applications</name>
+    <file>
+      <name>$PROJ_DIR$\applications\main.c</name>
+    </file>
+  </group>
+  <group>
+    <name>Drivers</name>
+    <file>
+      <name>$PROJ_DIR$\board\board.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board\CubeMX_Config\Src\stm32f1xx_hal_msp.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\CMSIS\Device\ST\STM32F1xx\Source\Templates\iar\startup_stm32f103xb.s</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\HAL_Drivers\drv_gpio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\HAL_Drivers\drv_usart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\HAL_Drivers\drv_common.c</name>
+    </file>
+  </group>
+  <group>
     <name>Kernel</name>
     <file>
       <name>$PROJ_DIR$\..\..\..\src\clock.c</name>
@@ -2133,9 +2114,6 @@
       <name>$PROJ_DIR$\..\..\..\src\mem.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\src\memheap.c</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\..\..\..\src\mempool.c</name>
     </file>
     <file>
@@ -2155,34 +2133,13 @@
     </file>
   </group>
   <group>
-    <name>Applications</name>
+    <name>CORTEX-M3</name>
     <file>
-      <name>$PROJ_DIR$\applications\main.c</name>
-    </file>
-  </group>
-  <group>
-    <name>Drivers</name>
-    <file>
-      <name>$PROJ_DIR$\board\board.c</name>
+      <name>$PROJ_DIR$\..\..\..\libcpu\arm\cortex-m3\cpuport.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\board\CubeMX_Config\Src\stm32L1xx_hal_msp.c</name>
+      <name>$PROJ_DIR$\..\..\..\libcpu\arm\cortex-m3\context_iar.S</name>
     </file>
-    <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\CMSIS\Device\ST\STM32L1xx\Source\Templates\iar\startup_stm32L151xb.s</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\libraries\HAL_Drivers\drv_gpio.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\libraries\HAL_Drivers\drv_usart.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\libraries\HAL_Drivers\drv_common.c</name>
-    </file>
-  </group>
-  <group>
-    <name>cpu</name>
     <file>
       <name>$PROJ_DIR$\..\..\..\libcpu\arm\common\backtrace.c</name>
     </file>
@@ -2191,12 +2148,6 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\libcpu\arm\common\showmem.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\libcpu\arm\cortex-m3\cpuport.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\libcpu\arm\cortex-m3\context_iar.S</name>
     </file>
   </group>
   <group>
@@ -2235,61 +2186,199 @@
       <name>$PROJ_DIR$\..\..\..\components\finsh\shell.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\..\..\..\components\finsh\symbol.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\..\components\finsh\cmd.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\components\finsh\msh.c</name>
     </file>
-  </group>
-  <group>
-    <name>libc</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\components\libc\compilers\common\time.c</name>
+      <name>$PROJ_DIR$\..\..\..\components\finsh\msh_cmd.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\components\finsh\msh_file.c</name>
     </file>
   </group>
   <group>
     <name>STM32_HAL</name>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\CMSIS\Device\ST\STM32L1xx\Source\Templates\system_stm32L1xx.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_dma.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_cortex.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_crc.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_pwr.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_rcc.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_rcc_ex.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp_ex.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_sram.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_gpio.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_irda.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_uart.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_iwdg.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\libraries\STM32L1xx_HAL\STM32L1xx_HAL_Driver\Src\stm32L1xx_hal_usart.c</name>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_smartcard.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_usart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_wwdg.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_adc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_crc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_dac.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_dma.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_exti.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_fsmc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_gpio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_i2c.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_pwr.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_rcc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_rtc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_spi.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_tim.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cec.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac_ex.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_eth.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_hcd.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_mmc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nand.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pccard.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nor.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sram.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libraries\STM32F1xx_HAL\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c</name>
     </file>
   </group>
 </project>

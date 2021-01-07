@@ -30,7 +30,7 @@
 - 常用接口：USB 转串口、SD 卡接口、LCD 接口等
 - 调试接口，标准 JTAG/SWD
 
-开发板更多详细信息请参考野火 [STM32 指南者开发板介绍](https://detail.tmall.com/item.htm?spm=a1z10.5-b.w4011-16951493648.142.25f32951DpjdW0&id=557788620554&rn=528cdd1f74fa614d592ffdf100d56e59&abbucket=13)。
+开发板更多详细信息请参考野火 [STM32 指南者开发板介绍](http://doc.embedfire.com/products/link/zh/latest/stm32/ebf_stm32f103_zhinanzhe.html)。
 
 ## 外设支持
 

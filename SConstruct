@@ -47,7 +47,7 @@ Export('SDK_LIB')
 # prepare building environment
 objs = PrepareBuilding(env, RTT_ROOT, has_libcpu=False)
 
-stm32_library = 'STM32L1xx_HAL'
+stm32_library = 'STM32F1xx_HAL'
 rtconfig.BSP_LIBRARY_TYPE = stm32_library
 
 # include libraries
