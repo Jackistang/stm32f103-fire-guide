@@ -1,0 +1,10 @@
+Import('RTT_ROOT')
+Import('rtconfig')
+from building import *
+
+cwd = GetCurrentDir()
+src = Glob('*.c')
+
+group = DefineGroup('Breathing_led', src, depend = [''])
+
+Return('group')
